@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="span"> Create new account </span>
+    </header>
+    <main>
+      <section class="section">
+        <form class="form" action="#">
+          <label for="fname">First name : </label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="Enter your first name"
+          />
+          <br />
+          <label for="lname">Last name : </label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="Enter your last name"
+          />
+          <br />
+          <label for="email">Email : </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value=""
+            placeholder="email"
+          />
+          <br />
+          <label for="password">Password : </label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value=""
+            placeholder="password"
+          />
+          <br />
+          <br />
+          <label class="radio" for="gender">Gender : </label>
+          <br />
+          <br />
+          <label for="men">Men : </label>
+          <input type="radio" name="men" id="men" />
+          <label for="women">Women : </label>
+          <input type="radio" name="women" id="women" />
+          <br /><br />
+          <label for="interest">Interest :</label><br />
+          <label for="sports">Sports</label>
+          <input type="checkbox" name="sports" id="sports" />
+          <label for="art">Art</label>
+          <input type="checkbox" name="Art" id="Art" />
+          <label for="movie">Movie</label>
+          <input type="checkbox" name="movie" id="movie" />
+          <br /><br />
+          <input type="checkbox" name="robot" id="robot" />
+          <label for="robot">not a robot</label><br /><br />
+          <input class="submit" type="submit" value="Create Account" />
+          <input class="reset" type="reset" name="" id="" value="reset" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

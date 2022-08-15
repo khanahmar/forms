@@ -1,0 +1,47 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+span {
+  text-align: right;
+  background-color: #3982e4;
+}
+.section {
+  margin: right center;
+  padding: 30px;
+  text-align: right;
+}
+header {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 150px;
+  font-size: 50px;
+}
+
+
+
+.form {
+    /* ask question about it */
+  font-size: 30px;
+  padding: 30px;
+  margin-right: 90px;
+}
+input {
+  padding: 6px;
+  border: 1px solid black;
+  margin: 5pxpx;
+}
+label {
+  font-size: 20px;
+}
+.submit {
+  background-color: #619d4c;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+}
+.reset{background-color: red;
+margin-right: 20px;}
